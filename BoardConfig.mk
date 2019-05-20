@@ -53,3 +53,9 @@ VENDOR_SECURITY_PATCH := 2019-01-01
 
 # WLAN MAC
 WLAN_MAC_SYMLINK := true
+
+
+# TWRP Support
+ifeq ($(BUILD_TWRP),true)
+include $(DEVICE_PATH)/twrp.mk
+endif

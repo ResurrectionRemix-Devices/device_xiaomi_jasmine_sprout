@@ -28,5 +28,10 @@
     "repository":  "Manish4586/android_vendor_xiaomi_Miuicamera",
     "target_path": "vendor/xiaomi/MiuiCamera",
     "branch":      "master"
+  },
+  {
+    "repository":  "TeamWin/external_magisk-prebuilt",
+    "target_path": "external/magisk-prebuilt",
+    "branch":      "master"
   }
 ]
