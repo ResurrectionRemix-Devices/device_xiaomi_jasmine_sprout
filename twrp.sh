@@ -4,6 +4,8 @@ git -C bootable/recovery remote add -f twrp https://github.com/omnirom/android_b
 git -C bootable/recovery checkout twrp/android-9.0
 git -C bootable/recovery pull twrp android-9.0
 git -C bootable/recovery config user.name "John Doe"
+git -C bootable/recovery config user.email "john@doe.com"
+git -C system/update_engine config user.name "John Doe"
 git -C system/update_engine config user.email "john@doe.com"
 git -C bootable/recovery fetch https://gerrit.omnirom.org/android_bootable_recovery refs/changes/48/32648/3 && git -C bootable/recovery cherry-pick FETCH_HEAD
 git -C bootable/recovery fetch https://gerrit.omnirom.org/android_bootable_recovery refs/changes/19/32819/5 && git -C bootable/recovery cherry-pick FETCH_HEAD
