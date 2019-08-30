@@ -24,10 +24,9 @@ $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 $(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
 
 # Inherit some common Pixel Experience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-TARGET_GAPPS_ARCH := arm64
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_jasmine_sprout
+PRODUCT_NAME := rr_jasmine_sprout
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MANUFACTURER := Xiaomi
