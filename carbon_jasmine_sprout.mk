@@ -47,3 +47,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := carbon_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
+
+#TWRP
+BUILD_TWRP := true
