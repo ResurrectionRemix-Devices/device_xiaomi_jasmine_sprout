@@ -48,6 +48,12 @@ PRODUCT_NAME := rr_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
 
+# GAPPS
+$(call inherit-product, vendor/gapps/gapps.mk)
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+
 # Resurrection Remix
 TARGET_FACE_UNLOCK_SUPPORTED := true
 RR_BUILDTYPE := Official
