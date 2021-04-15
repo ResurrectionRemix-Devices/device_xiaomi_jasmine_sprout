@@ -23,6 +23,9 @@
 #TWRP
 BUILD_TWRP := true
 
+# Density
+TARGET_SCREEN_DENSITY := 400
+
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
